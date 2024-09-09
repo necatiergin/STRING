@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-//starts_with since C++17
+//starts_with since C++20
 
 int main()
 {
