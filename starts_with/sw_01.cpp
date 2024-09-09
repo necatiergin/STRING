@@ -8,6 +8,6 @@ int main()
 	std::cout << std::boolalpha;
 	std::string name{ "necatiergin" };
 
-	std::cout << name.starts_with("necati") << '\n';
-	std::cout << name.starts_with("nedim") << '\n';
+	std::cout << name.starts_with('n') << '\n';
+	std::cout << name.starts_with('k') << '\n';
 }
