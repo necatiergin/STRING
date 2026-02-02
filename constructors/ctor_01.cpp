@@ -8,17 +8,15 @@ void print(const std::string& str)
 
 int main()
 {
-	using namespace std;
-
-	//string s1; //default ctor
-	//string s1{}; // default ctor
-	string s1 = {}; //default ctor
+	//std::string s1; //default ctor
+	//std::string s1{}; // default ctor
+	std::string s1 = {}; //default ctor
 	print(s1);
-	string s2{ "necati ergin" };	 //c-string ctor
+	std::string s2{ "necati ergin" };	 //c-string ctor
 	print(s2);
-	string s3{ s2 };  // copy ctor
+	std::string s3{ s2 };  // copy ctor
 	print(s3);
-	string s4{ move(s3) };  // move ctor
+	std::string s4{ move(s3) };  // move ctor
 	print(s3);
 	print(s4);
 }
